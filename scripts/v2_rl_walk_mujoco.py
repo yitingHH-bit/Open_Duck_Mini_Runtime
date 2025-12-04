@@ -15,6 +15,7 @@ from mini_bdx_runtime.antennas import Antennas
 from mini_bdx_runtime.projector import Projector
 from mini_bdx_runtime.rl_utils import make_action_dict, LowPassActionFilter
 from mini_bdx_runtime.duck_config import DuckConfig
+from keyboard_controller import KeyboardController
 
 import os
 
@@ -95,9 +96,16 @@ class RLWalk:
         self.paused = self.duck_config.start_paused
 
         self.command_freq = 20  # hz
+        #if self.commands:
+        #    self.xbox_controller = XBoxController(self.command_freq)
         if self.commands:
-            self.xbox_controller = XBoxController(self.command_freq)
-
+          try:
+              self.xbox_controller = XBoxController(self.command_freq)
+              print("Using XBoxController (joystick).")
+          except Exception as e:
+              print("No joystick found, using KeyboardController instead:", e)
+              self.xbox_controller = KeyboardController(self.command_freq)
+               
         # Reference motion, but we only really need the length of one phase
         # TODO
         self.PRM = PolyReferenceMotion("./polynomial_coefficients.pkl")

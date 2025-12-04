@@ -1,0 +1,115 @@
+{
+  "start": 1761919015.2269156,
+  "tests": [
+    {
+      "name": "import numpy",
+      "ok": true,
+      "info": "2.2.6",
+      "details": ""
+    },
+    {
+      "name": "import scipy",
+      "ok": true,
+      "info": "1.15.1",
+      "details": ""
+    },
+    {
+      "name": "import onnxruntime",
+      "ok": true,
+      "info": "1.23.2",
+      "details": ""
+    },
+    {
+      "name": "import pygame",
+      "ok": true,
+      "info": "2.6.1",
+      "details": ""
+    },
+    {
+      "name": "import pypot",
+      "ok": true,
+      "info": "5.0.2",
+      "details": ""
+    },
+    {
+      "name": "import wget",
+      "ok": true,
+      "info": "3.2",
+      "details": ""
+    },
+    {
+      "name": "import cv2",
+      "ok": true,
+      "info": "4.12.0",
+      "details": ""
+    },
+    {
+      "name": "import rustypot",
+      "ok": true,
+      "info": "OK",
+      "details": ""
+    },
+    {
+      "name": "import adafruit_bno055",
+      "ok": false,
+      "info": "NameError: name 'DigitalInOut' is not defined",
+      "details": "Traceback (most recent call last):\n  File \"/home/jack/Open_Duck_Mini_Runtime/mini_bdx_selftest.py\", line 48, in test_import_version\n    mod = __import__(module_name)\n  File \"/home/jack/.virtualenvs/open-duck-mini-runtime/lib/python3.13/site-packages/adafruit_bno055.py\", line 36, in <module>\n    from adafruit_register.i2c_struct import Struct, UnaryStruct\n  File \"/home/jack/.virtualenvs/open-duck-mini-runtime/lib/python3.13/site-packages/adafruit_register/i2c_struct.py\", line 22, in <module>\n    from circuitpython_typing.device_drivers import I2CDeviceDriver\n  File \"/home/jack/.virtualenvs/open-duck-mini-runtime/lib/python3.13/site-packages/circuitpython_typing/device_drivers.py\", line 13, in <module>\n    from adafruit_bus_device.spi_device import SPIDevice\n  File \"/home/jack/.virtualenvs/open-duck-mini-runtime/lib/python3.13/site-packages/adafruit_bus_device/spi_device.py\", line 27, in <module>\n    class SPIDevice:\n    ...<89 lines>...\n            return False\n  File \"/home/jack/.virtualenvs/open-duck-mini-runtime/lib/python3.13/site-packages/adafruit_bus_device/spi_device.py\", line 74, in SPIDevice\n    chip_select: Optional[DigitalInOut] = None,\n                          ^^^^^^^^^^^^\nNameError: name 'DigitalInOut' is not defined\n"
+    },
+    {
+      "name": "import openai",
+      "ok": true,
+      "info": "1.70.0",
+      "details": ""
+    },
+    {
+      "name": "numpy dot/shape",
+      "ok": true,
+      "info": "OK",
+      "details": ""
+    },
+    {
+      "name": "onnxruntime providers",
+      "ok": true,
+      "info": "providers=AzureExecutionProvider,CPUExecutionProvider",
+      "details": ""
+    },
+    {
+      "name": "pygame surface create",
+      "ok": true,
+      "info": "OK (dummy drivers)",
+      "details": ""
+    },
+    {
+      "name": "opencv canny",
+      "ok": true,
+      "info": "cv2=4.12.0, SIFT=yes",
+      "details": ""
+    },
+    {
+      "name": "pypot import",
+      "ok": true,
+      "info": "5.0.2",
+      "details": ""
+    },
+    {
+      "name": "adafruit_bno055 import",
+      "ok": false,
+      "info": "NameError: name 'DigitalInOut' is not defined",
+      "details": "Traceback (most recent call last):\n  File \"/home/jack/Open_Duck_Mini_Runtime/mini_bdx_selftest.py\", line 134, in test_bno055_optional\n    from adafruit_bno055 import BNO055_I2C  # noqa: F401\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/jack/.virtualenvs/open-duck-mini-runtime/lib/python3.13/site-packages/adafruit_bno055.py\", line 36, in <module>\n    from adafruit_register.i2c_struct import Struct, UnaryStruct\n  File \"/home/jack/.virtualenvs/open-duck-mini-runtime/lib/python3.13/site-packages/adafruit_register/i2c_struct.py\", line 22, in <module>\n    from circuitpython_typing.device_drivers import I2CDeviceDriver\n  File \"/home/jack/.virtualenvs/open-duck-mini-runtime/lib/python3.13/site-packages/circuitpython_typing/device_drivers.py\", line 13, in <module>\n    from adafruit_bus_device.spi_device import SPIDevice\n  File \"/home/jack/.virtualenvs/open-duck-mini-runtime/lib/python3.13/site-packages/adafruit_bus_device/spi_device.py\", line 27, in <module>\n    class SPIDevice:\n    ...<89 lines>...\n            return False\n  File \"/home/jack/.virtualenvs/open-duck-mini-runtime/lib/python3.13/site-packages/adafruit_bus_device/spi_device.py\", line 74, in SPIDevice\n    chip_select: Optional[DigitalInOut] = None,\n                          ^^^^^^^^^^^^\nNameError: name 'DigitalInOut' is not defined\n"
+    },
+    {
+      "name": "rustypot import",
+      "ok": true,
+      "info": "OK",
+      "details": ""
+    },
+    {
+      "name": "openai import",
+      "ok": true,
+      "info": "API key not set",
+      "details": ""
+    }
+  ],
+  "end": 1761919028.5730538,
+  "duration_sec": 13.35
+}
