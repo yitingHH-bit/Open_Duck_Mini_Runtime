@@ -5,6 +5,14 @@ This repository contains the **Open Duck Mini Runtime** — a lightweight and mo
 ---
 # 🦆  student project/replica  project (studying savonia UAS )
 
+| Role | Name | Responsibility |
+|------|------|----------------|
+| **Group Manager** | **Jiancai H** | System integration, reinforcement learning runtime, documentation |
+| **Software Developer** | **Danila M.** | Python runtime logic, controller scripts, communication modules |
+| **Hardware Assembler** | **Agozie J O.** | Physical robot setup, sensor calibration, wiring |
+| **Supervisor** | **Markku K. ** | Academic supervision and technical guidance |
+
+
 ## 🎥 Demo Videos
 
 | Preview | Description |
@@ -38,4 +46,5 @@ This repository contains the **Open Duck Mini Runtime** — a lightweight and mo
 git clone https://github.com/yitingHH-bit/Open_Duck_Mini_Runtime.git
 cd Open_Duck_Mini_Runtime
 python scripts/v2_rl_walk_mujoco.py
+
 
