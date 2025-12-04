@@ -3,6 +3,7 @@
 This repository contains the **Open Duck Mini Runtime** — a lightweight and modular runtime environment for small-scale biped/quadruped robot control and reinforcement learning deployment.
 
 ---
+# 🦆  student project/replica  project (studying savonia UAS )
 
 ## 🎥 Demo Videos
 
@@ -13,7 +14,7 @@ This repository contains the **Open Duck Mini Runtime** — a lightweight and mo
 
 ---
 
-## 🖼️ Screenshot
+##  display
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e5ea921e-6d63-4b25-a0d6-3734242110c2" width="75%" alt="Duck Mini Runtime UI Screenshot"/>
@@ -37,3 +38,4 @@ This repository contains the **Open Duck Mini Runtime** — a lightweight and mo
 git clone https://github.com/yitingHH-bit/Open_Duck_Mini_Runtime.git
 cd Open_Duck_Mini_Runtime
 python scripts/v2_rl_walk_mujoco.py
+
