@@ -37,6 +37,11 @@ This repository contains the **Open Duck Mini Runtime** — a lightweight and mo
 - Easy parameter customization via `duck_config.json`  
 - Self-test and diagnostic scripts (`mini_bdx_selftest.py`)
 
+## 🧩 the issues we are encountering
+
+
+blance    
+
 ---
 
 ## 🚀 Quick Start
@@ -51,6 +56,7 @@ python scripts/v2_rl_walk_mujoco.py
 From the DataSheet @ https://www.ti.com/product/TLVM13610?keyMatch=tlvm13610rdfr&tisearch=universal_search   and the circuit can be found here https://www.ti.com/lit/ds/symlink/tlvm13610.pdf?ts=1762995465366. 
 <img width="1897" height="880" alt="image" src="https://github.com/user-attachments/assets/86a23cfe-6d99-4a03-88d7-7d5d68d2276a" />
 <img width="790" height="495" alt="image" src="https://github.com/user-attachments/assets/1a911248-7f5c-4aba-b3bd-05f14d650cd0" />
+
 
 
 
