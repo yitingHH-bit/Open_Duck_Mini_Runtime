@@ -1,8 +1,9 @@
 # 🦆 Open Duck Mini Runtime
 
-This repository contains the **Open Duck Mini Runtime** — a lightweight and modular runtime environment for small-scale biped/quadruped robot control and reinforcement learning deployment.
+This repository contains the **Open Duck Mini Runtime** — a lightweight and modular runtime environment for small-scale biped/quadruped robot control and reinforcement learning deployment. Currently, the project is about 90% complete and under active development.
 
 ---
+
 # 🦆  student project/replica  project (studying savonia UAS )
 
 | Role | Name | Responsibility |
@@ -58,6 +59,7 @@ python scripts/v2_rl_walk_mujoco.py
 
 
 From the DataSheet @ https://www.ti.com/product/TLVM13610?keyMatch=tlvm13610rdfr&tisearch=universal_search   and the circuit can be found here https://www.ti.com/lit/ds/symlink/tlvm13610.pdf?ts=1762995465366. 
+
 
 
 
