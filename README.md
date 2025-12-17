@@ -18,7 +18,7 @@ This repository contains the **Open Duck Mini Runtime** — a lightweight and mo
 
 | Preview | Description |
 |--------|-------------|
-| [▶️ Watch on YouTube](https://youtu.be/z47BbtKJ-X8) | Extended walking demo (full video) |
+| [▶️ Watch on YouTube](https://youtu.be/HA8A6kagsS8) | Extended walking demo (full video) |
 
 ---
 
@@ -59,6 +59,7 @@ python scripts/v2_rl_walk_mujoco.py
 
 
 From the DataSheet @ https://www.ti.com/product/TLVM13610?keyMatch=tlvm13610rdfr&tisearch=universal_search   and the circuit can be found here https://www.ti.com/lit/ds/symlink/tlvm13610.pdf?ts=1762995465366. 
+
 
 
 
