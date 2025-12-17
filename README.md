@@ -12,7 +12,7 @@ This repository contains the **Open Duck Mini Runtime** — a lightweight and mo
 | **Supervisor** | **Markku K. ** | Academic supervision and technical guidance |
 | **Group Manager** | **Jiancai H** | System integration, reinforcement learning runtime, documentation |
 | **Software Developer** | **Danila M.** | Python runtime logic, controller scripts, communication modules |
-| **Hardware Assembler** | **Agozie J O.** | Physical robot setup, sensor calibration, wiring |
+| **Hardware Assembler** | **Agozie J O.** | Physical robot setup 
 
 ## 🎥 Demo Videos
 
@@ -59,6 +59,7 @@ python scripts/v2_rl_walk_mujoco.py
 
 
 From the DataSheet @ https://www.ti.com/product/TLVM13610?keyMatch=tlvm13610rdfr&tisearch=universal_search   and the circuit can be found here https://www.ti.com/lit/ds/symlink/tlvm13610.pdf?ts=1762995465366. 
+
 
 
 
